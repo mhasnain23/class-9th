@@ -4,4 +4,7 @@
 // const car2: string = 'La farrari';
 // const car3: string = 'Lambo';
 
-let carsName = []
+const carsName = ["Dodge Challenger", "Hellcat", "La farrie"];
+console.log(carsName[0]);
+
+const pkCar: (string | number)[] = ['fortunar price', 780000, 'landcrusor'];
