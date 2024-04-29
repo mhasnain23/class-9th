@@ -5,6 +5,16 @@
 // const car3: string = 'Lambo';
 
 const carsName = ["Dodge Challenger", "Hellcat", "La farrie"];
-console.log(carsName[0]);
+console.log(carsName);
 
-const pkCar: (string | number)[] = ['fortunar price', 780000, 'landcrusor'];
+// carsName.shift();
+
+// console.log(carsName);
+
+carsName.unshift("Mehran")
+
+console.log(carsName);
+
+carsName.shift();
+
+console.log(carsName);

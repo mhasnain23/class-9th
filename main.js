@@ -3,6 +3,11 @@
 // const car2: string = 'La farrari';
 // const car3: string = 'Lambo';
 const carsName = ["Dodge Challenger", "Hellcat", "La farrie"];
-console.log(carsName[0]);
-const pkCar = ['fortunar price', 780000, 'landcrusor'];
+console.log(carsName);
+// carsName.shift();
+// console.log(carsName);
+carsName.unshift("Mehran");
+console.log(carsName);
+carsName.shift();
+console.log(carsName);
 export {};
