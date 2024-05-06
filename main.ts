@@ -6,7 +6,6 @@
 
 const carsName = ["Dodge Challenger", "Hellcat", "La farrie"];
 console.log(carsName);
-
 // carsName.shift();
 
 // console.log(carsName);
@@ -16,5 +15,9 @@ carsName.unshift("Mehran")
 console.log(carsName);
 
 carsName.shift();
+
+console.log(carsName);
+
+carsName.splice(0, 1);
 
 console.log(carsName);
